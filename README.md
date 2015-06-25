@@ -1,6 +1,6 @@
 # swig_mutator
 
-How to wrap C++ getter/setter in Python with SWIG
+How to wrap C++ getter/setter in Python with SWIG.
 
 Build with:
 
@@ -20,7 +20,7 @@ Run the Python script with:
 * [SWIG macros for  mutators](https://github.com/swig/swig/blob/master/Lib/typemaps/attribute.swg)
 * [SWIG const-correctness](http://swig.org/Doc3.0/SWIGDocumentation.html#SWIGPlus_const)
 
-# References
+# Note
 
 The waf executable has been created with:
 
