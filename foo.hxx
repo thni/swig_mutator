@@ -5,23 +5,20 @@ class Foo
 {
     public:
         Foo();
-
-        const int &
-        a() const;
-
-        int &
-        a();
-
+        const int& a() const;
+        int& a();
     private:
         int m_a;
 };
 
-inline
-int const & Foo::a() const
-{ return m_a; }
+inline const int & Foo::a() const
+{
+    return m_a;
+}
 
-inline
-int & Foo::a()
-{ return m_a; }
+inline int & Foo::a()
+{
+    return m_a;
+}
 
 #endif
